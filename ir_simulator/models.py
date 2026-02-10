@@ -17,3 +17,12 @@ class Incident:
     evidence: List[str]
     explanation: str
     recommended_actions: List[str]
+
+    from dataclasses import dataclass
+
+
+@dataclass
+class TimelineEvent:
+    timestamp: int
+    description: str
+    significance: str
