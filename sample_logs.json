@@ -1,0 +1,9 @@
+[
+ {"timestamp": 1, "ip": "1.2.3.4", "event": "FAIL"},
+ {"timestamp": 2, "ip": "1.2.3.4", "event": "FAIL"},
+ {"timestamp": 3, "ip": "1.2.3.4", "event": "FAIL"},
+ {"timestamp": 4, "ip": "1.2.3.4", "event": "SUCCESS"},
+ {"user": "alice", "event": "LOGIN_SUCCESS"},
+ {"user": "alice", "event": "PRIV_ESCALATION"},
+ {"event": "LOG_CLEARED", "target": "/var/log/auth.log"}
+ ]
